@@ -76,6 +76,8 @@ displayed if the 'eventbrite' field in the header is not set.
 </iframe>
 {% endif %}
 
+Sign up via [PDMS](https://www.st-andrews.ac.uk/pdms/index.php?mode=single&query=12285).
+
 
 <h2 id="general">General Information</h2>
 
