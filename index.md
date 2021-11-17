@@ -14,7 +14,7 @@ humantime: "9:30 am - 5:00 pm GMT"    # human-readable times for the workshop e.
 startdate: 2021-11-29      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
 enddate: 2021-11-30        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
 instructor: ["Alexander Konovalov", "Patrick McCann", "Anastasia Ellis", "Piper Fowler-Wright"] # boxed, comma-separated list of instructors'" names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
-helper: ["TBC"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
+helper: ["Swithun Crowe"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
 email: ["research-computing@st-andrews.ac.uk"]    # boxed, comma-separated list of contact email addresses for the host, lead instructor, or whoever else is handling questions, like ["marlyn.wescoff@example.org", "fran.bilas@example.org", "ruth.lichterman@example.org"]
 collaborative_notes:  # optional: URL for the workshop collaborative notes, e.g. an Etherpad or Google Docs document (e.g., https://pad.carpentries.org/2015-01-01-euphoria)
 eventbrite:           # optional: alphanumeric key for Eventbrite registration, e.g., "1234567890AB" (if Eventbrite is being used)
@@ -76,8 +76,6 @@ displayed if the 'eventbrite' field in the header is not set.
 </iframe>
 {% endif %}
 
-Sign up via [PDMS](https://www.st-andrews.ac.uk/pdms/index.php?mode=single&query=12285).
-
 
 <h2 id="general">General Information</h2>
 
@@ -112,6 +110,8 @@ workshop is only open to people from a particular institution.
 {% elsif site.carpentry == "lc" %}
 {% include lc/who.html %}
 {% endif %}
+
+Sign up via [PDMS](https://www.st-andrews.ac.uk/pdms/index.php?mode=single&query=12285).
 
 {% comment %}
 LOCATION
