@@ -111,7 +111,7 @@ workshop is only open to people from a particular institution.
 {% include lc/who.html %}
 {% endif %}
 
-Sign up via [PDMS](https://www.st-andrews.ac.uk/pdms/index.php?mode=single&query=12285).
+**Register:** Sign up via [PDMS](https://www.st-andrews.ac.uk/pdms/index.php?mode=single&query=12285).
 
 {% comment %}
 LOCATION
